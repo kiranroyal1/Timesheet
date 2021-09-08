@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timesheet Application</title>
+    <link rel="stylesheet" href="cssbase.css"/>
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js></script>
+</head>
+<body>
+   <div class="headline"><h1>Welcome to the Timesheet Portal</h1></div>
+   <!--Div to hold log form-->
+   <br>
+<div class="seconddiv">
+        <div class="seconddiv_uno">
+            <div class="seconddiv_unosub1">
+                <form action="#">
+                    <p class="pid">Enter the form data to log your Time</p>
+                    <label for="fname">First Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter First Name"><br><br>
+                    <label for="lname">Last Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter Last Name"><br><br>
+                    <label for="logintime">Log in Time&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                    <input type="text" id="logintime" name="logintime" placeholder="Enter Login Time"><br><br>
+                    <label for="logouttime">Log out Time&nbsp;&nbsp;:</label>
+                    <input type="text" id="logouttime" name="logouttime" placeholder="Enter Logout Time"><br><br>          
+                </form>
+
+                <!--dropdown list-->
+                <label for="exp">Experience&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                <select id="exp" name="exp">  
+                    <option value="experienced">Experienced</option>
+                    <option value="fresher">Fresher</option>
+                    <option value="intern">Intern</option>
+                </select>
+            </div>
+
+            <div class="seconddiv_unosub2">
+                <button class="bt1" type="button">&nbsp;Submit&nbsp;</button>
+            </div>
+
+        </div>
+
+        <!--begin of seconddiv_des-->
+        <div class="seconddiv_des">
+            <br>
+            <form>
+            <label for="date">Select date:</label>
+            <input type="date" id="date" name="date">
+            </form>
+        </div>
+
+        <!--begin of seconddiv_trio-->
+        <div class="seconddiv_trio">
+            <div class="seconddiv_triosub1">
+                <br>
+                <form>
+                    <label for="searchbutton">&nbsp;&nbsp;&nbsp;&nbsp;Search :</label>
+                    <input type="search" id="searchbutton" name="searchbutton" placeholder="Search Employees">
+                </form>
+            </div>
+            <div class="seconddiv_triosub2">
+                <br>
+                <br>
+                <p><b>NOTE:</b></p>
+                    <div class="seconddiv_triosub3">
+                        <p><b><i>Any queries</i></b></p>
+                        <p><b><i>contact Krishna</i></b></p>
+                    </div>
+            </div>
+        </div>
+</div>
+
+<br><br>
+<!--Begin of thirddiv-->
+<div class="thirddiv">
+    <table id="logtable">
+        <tr>
+            <th id="name" colspan="2">Name&nbsp;</th>
+            <th id="time" colspan="2">Time</th>
+            <th id="actions" colspan="2">Actions</th> 
+        </tr>
+        <!--Sub headers-->
+        <tr>
+            <th id="fn">First Name</th>
+            <th id="ln">Last Name</th>
+            <th id="lgin">Login Time</th>
+            <th id="lgut">Logout Time</th>
+            <th id="edt">&nbsp;&nbsp;Edit&nbsp;&nbsp;</th>
+            <th id="del">&nbsp;Delete&nbsp;</th>
+        </tr>
+        <trid id="1">
+            <td id="td1">Shyam</td>
+            <td id="td2">Chawla</td>
+            <td id="td3">9:02</td>
+            <td id="td4">18:31</td>
+            <td id="td5" style="color:rgb(14, 177, 241);"><u>Edit</u></td>
+            <td id="td6" style="color:rgb(14, 177, 241);"><u><a href="">Delete</a></u></td>
+        </tr id="2">
+            <td>Mallikarjuna</td>
+            <td>Yerpeti</td>
+            <td>9:02</td>
+            <td>18:23</td>
+            <td style="color:rgb(14, 177, 241);"><u>Edit</u></td>
+            <td style="color:rgb(14, 177, 241);"><u><a href="">Delete</a></u></td>
+        </tr id="tr3">
+            <td id="row3td1">demofname</td>
+            <td id="row3td2">demolname</td>
+            <td id="row3td3">demologintime</td>
+            <td id="row3td4">demologouttime</td>
+            <td id="row1td5" style="color:rgb(14, 177, 241);"><u>Edit</u></td>
+            <td id="row1td6" style="color:rgb(14, 177, 241);"><u><a href="">Delete</a></u></td>
+        </tr>
+    </table>
+</div>
+</body>
+<script src="jsbase.js"></script>
+</html>

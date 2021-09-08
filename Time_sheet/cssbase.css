@@ -1,0 +1,182 @@
+/* background image */
+body{
+    background-image: url(Time_Analog.jpg);
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 95%;
+}
+
+/*h1 tag holding the heading*/
+.headline {
+    margin: auto;
+    width: 550px;
+    height: 37px;
+    text-align: center;
+    color: #00000c;
+    background-color:#468eec;
+    font-family: "Helvetica";
+    opacity:88%;
+    font-weight:400;
+    font-size: 16px;
+}
+
+.seconddiv{
+    width: 100%;
+    height:345px;
+}
+
+/* secondiv_uno under second_div */
+.seconddiv_uno{
+    border-color: #e94a87;
+    border-width: 2.5px;
+    border-style: solid;
+    height: 345px;
+    border-radius: 12px 12px 12px 12px;
+    opacity: 94%;
+    float: left;
+    font-family: "Helvetica";
+    background-color: aliceblue;
+}
+
+/* for the div tag holding html form */
+.seconddiv_unosub1{
+    font-size: 18px;
+    text-align: left;
+    color: darkorchid;
+    width: 356px;
+    height: 288px;
+    padding: 10px 6px 8px 16px;
+    opacity: 84%;
+}
+    /*p tag inside form */
+    .pid {
+        color: rgb(243, 163, 13);
+        text-align: center;
+    }
+
+.seconddiv_unosub2{
+    text-align:center;
+}
+    .bt1 {
+        background-color: #9beca1ed;
+    }
+
+/*end of seconddiv_uno*/
+
+/*begin of seconddiv_des*/
+.seconddiv_des{
+    float: center;
+    text-align: center;
+    width: 560px;
+    height:333px;
+    float: left;
+    color: hotpink;
+    font-family: "Helvetica";
+}  
+
+/*begin of seconddiv_trio     border: 2px solid rgb(47, 204, 243);*/
+.seconddiv_trio{
+    width: 400px;
+    height:333px;
+    padding-right: 14px;
+    float: right;
+    font-family: "Helvetica";
+}
+    .seconddiv_triosub1{
+        text-align: center;
+        color: rgb(77, 201, 160);
+        float: center;
+    }
+
+    .seconddiv_triosub2{
+        text-align: center;
+        color: brown;
+        float: right;
+    }
+    
+    .seconddiv_triosub3{
+        font-size: 18px;
+        color: #f73142;  
+        width: 350px;
+        float: right;    
+        padding: 10px,8px,4px,8px;
+        border-width: 2.5px;
+        border-color:#e94a87;
+        border-style: solid;
+        border-radius: 14px 14px 14px 14px;
+        background-color: aliceblue;
+        opacity: 94%;
+    }
+
+/*begin of thirddiv*/
+.thirddiv{
+    width:auto;
+    padding: 10px,8px,40px,8px;
+    font-family: "Helvetica";
+}
+/*table headers*/
+#name {
+    background-color: #2899f5;
+    color: rgb(43, 44, 46);
+}
+
+#time {
+    background-color: #ffc934;
+    color: rgb(43, 44, 46);
+}
+
+#actions {
+    background-color: rgb(236, 24, 236);
+    color: rgb(43, 44, 46);
+}
+
+/*table subheaders*/
+#fn{
+    background-color: #78c0fc;
+    color: rgb(43, 44, 46);
+}
+
+#ln{
+    background-color: #78c0fc;
+    color: rgb(43, 44, 46);
+}
+
+#lgin{
+    background-color: #f8d769;
+    color: rgb(43, 44, 46);
+
+}
+
+#lgut{
+    background-color: #f8d769;
+    color: rgb(43, 44, 46);
+}
+
+#edt{
+    background-color: rgb(253, 143, 253);
+    color: rgb(43, 44, 46);
+}
+
+#del{
+    background-color: rgb(253, 143, 253);
+    color: rgb(43, 44, 46);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+    border: 2px solid rgb(239, 134, 243);
+    text-align: center;
+    opacity: 94%;
+    color: #05c5ff;
+    background-color: aliceblue;
+}
+
+
